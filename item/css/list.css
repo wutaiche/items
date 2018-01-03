@@ -1,0 +1,42 @@
+@import url(common.css);
+@import url(index.css);
+.hide {
+  display: none; }
+
+#content {
+  width: 1200px;
+  margin: 0 auto; }
+  #content p.title {
+    padding-top: 20px;
+    height: 40px;
+    border-bottom: 2px solid red; }
+    #content p.title a {
+      padding: 0 30px;
+      line-height: 40px;
+      font-size: 14px; }
+  #content div.goods {
+    margin-top: 40px; }
+    #content div.goods li {
+      float: left;
+      width: 231px;
+      height: 402px; }
+      #content div.goods li p {
+        margin-bottom: 15px; }
+      #content div.goods li p.second {
+        text-align: center; }
+        #content div.goods li p.second span.prince {
+          color: red; }
+        #content div.goods li p.second span.comment {
+          margin-right: 20px; }
+        #content div.goods li p.second i {
+          color: blue; }
+      #content div.goods li a.reserve {
+        margin-left: 12px;
+        display: block;
+        width: 80px;
+        height: 26px;
+        text-align: center;
+        line-height: 26px;
+        color: white;
+        background: red;
+        border-radius: 3px; }

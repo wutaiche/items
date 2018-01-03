@@ -1,0 +1,113 @@
+@import url(common.css);
+body {
+  background: #f5f5f5; }
+
+#content {
+  width: 1044px;
+  margin: 0 auto;
+  color: #666; }
+
+div.header {
+  height: 134px;
+  line-height: 134px;
+  font-size: 22px; }
+  div.header a {
+    width: 208px;
+    height: 62px;
+    display: block;
+    background: url(../images/logo.png);
+    margin-top: 36px;
+    margin-right: 40px; }
+
+#regist {
+  padding: 65px 64px 73px 60px;
+  position: relative;
+  background: white;
+  border: 1px solid #e5e5e5; }
+  #regist .label {
+    float: left;
+    font-size: 14px;
+    width: 115px;
+    margin-right: 10px;
+    color: #999;
+    text-align: right;
+    line-height: 40px; }
+    #regist .label b {
+      color: red;
+      margin-right: 5px; }
+  #regist .text {
+    border: 1px solid #666;
+    width: 239px;
+    height: 18px;
+    line-height: 18px;
+    padding: 10px 25px 10px 5px;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 30px; }
+  #regist .registBtn {
+    width: 270px;
+    height: 36px;
+    line-height: 36px;
+    background: #e74e4e;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-left: 125px;
+    color: white; }
+  #regist .hide {
+    display: none; }
+
+.guidequ {
+  padding-top: 20px;
+  padding-bottom: 36px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: white; }
+  .guidequ .guide {
+    width: 875px;
+    height: 216px;
+    overflow: hidden;
+    float: left; }
+    .guidequ .guide li {
+      width: 135px;
+      float: left;
+      margin-left: 40px;
+      display: inline;
+      line-height: 36px; }
+  .guidequ .tit {
+    font-size: 16px;
+    color: #4c4c4c;
+    font-weight: bold;
+    line-height: 36px; }
+
+.Sweep {
+  width: 325px;
+  height: 216px;
+  float: left;
+  text-align: center; }
+  .Sweep ul {
+    margin-left: 20px;
+    margin-right: 8px; }
+    .Sweep ul li {
+      width: 140px;
+      margin: 0 auto; }
+      .Sweep ul li img {
+        width: 140px;
+        height: 140px;
+        margin-top: 8px; }
+
+.footerLast {
+  text-align: center;
+  padding: 30px 0 50px;
+  color: #666; }
+  .footerLast .bottomnav span {
+    margin: 0 10px; }
+  .footerLast .copyright {
+    margin-top: 12px;
+    position: relative; }
+  .footerLast .copyrightImg {
+    position: absolute;
+    right: 210px;
+    top: 0; }

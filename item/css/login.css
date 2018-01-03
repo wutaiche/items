@@ -1,0 +1,109 @@
+@import url(common.css);
+#header {
+  height: 95px; }
+  #header h1 {
+    margin-left: 120px;
+    margin-top: 18px; }
+    #header h1 a {
+      background: url(../images/logo.png);
+      display: inline-block;
+      width: 208px;
+      height: 62px; }
+
+#content {
+  height: 400px; }
+  #content div.warp {
+    position: relative;
+    background: url(../images/DBRl6Zsh_L.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%; }
+    #content div.warp div.logo {
+      width: 350px;
+      padding: 33px 39px 25px;
+      border: 1px solid #ccc;
+      background: #fff;
+      display: inline-block;
+      position: absolute;
+      top: 30px;
+      right: 124px;
+      color: #666; }
+      #content div.warp div.logo p {
+        height: 20px;
+        line-height: 20px;
+        margin-bottom: 48px; }
+        #content div.warp div.logo p span.left {
+          font-size: 16px; }
+        #content div.warp div.logo p span.right a {
+          color: blue; }
+      #content div.warp div.logo .list {
+        position: relative;
+        margin-bottom: 20px;
+        border: 1px solid #d9d9d9; }
+        #content div.warp div.logo .list .iconLogin2 {
+          background: url(../images/iconlogin2.png) no-repeat;
+          overflow: hidden; }
+        #content div.warp div.logo .list .text {
+          width: 300px;
+          height: 18px;
+          line-height: 18px;
+          padding: 10px 0 10px 48px;
+          font-size: 14px; }
+        #content div.warp div.logo .list .i_name, #content div.warp div.logo .list .i_pass {
+          position: absolute;
+          display: block;
+          width: 38px;
+          height: 38px;
+          left: 0;
+          top: 0; }
+        #content div.warp div.logo .list .i_pass {
+          background-position: -40px 0; }
+      #content div.warp div.logo .loginBtn {
+        width: 350px;
+        height: 40px;
+        line-height: 40px;
+        background: #4496ee;
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 5px;
+        cursor: pointer; }
+      #content div.warp div.logo .coagent {
+        margin-top: 20px; }
+        #content div.warp div.logo .coagent .m {
+          margin-top: 10px; }
+        #content div.warp div.logo .coagent .txt999 {
+          margin-bottom: 0; }
+        #content div.warp div.logo .coagent div, #content div.warp div.logo .coagent span {
+          float: left;
+          margin-right: 8px; }
+        #content div.warp div.logo .coagent .iconLogin2 {
+          background: url(../images/iconlogin2.png) no-repeat;
+          overflow: hidden;
+          display: block;
+          float: left;
+          width: 24px;
+          height: 17px;
+          margin-right: 3px; }
+        #content div.warp div.logo .coagent .pic_01 {
+          background-position: -83px 0; }
+        #content div.warp div.logo .coagent .pic_02 {
+          background-position: -88px -25px; }
+        #content div.warp div.logo .coagent .pic_03 {
+          background-position: -88px -48px; }
+
+.footerLast {
+  margin-top: 140px;
+  text-align: center;
+  padding: 30px 0 50px;
+  color: #666; }
+  .footerLast .bottomnav span {
+    margin: 0 10px; }
+  .footerLast .copyright {
+    margin-top: 12px;
+    position: relative; }
+  .footerLast .copyrightImg {
+    position: absolute;
+    right: 210px;
+    top: 0; }

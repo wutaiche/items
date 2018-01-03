@@ -1,0 +1,131 @@
+@import url(common.css);
+@import url(index.css);
+.hide {
+  display: none; }
+
+#content {
+  width: 1200px;
+  margin: 0 auto; }
+  #content #mask {
+    width: 175px;
+    height: 175px;
+    background: red;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none; }
+  #content div.bread {
+    height: 30px;
+    line-height: 30px;
+    margin-left: 5px; }
+  #content div.goodsdetail-left {
+    height: 610px;
+    float: left;
+    position: relative; }
+    #content div.goodsdetail-left div.smallpic {
+      width: 420px;
+      height: 420px;
+      background: red; }
+      #content div.goodsdetail-left div.smallpic img {
+        width: 420px;
+        height: 420px; }
+    #content div.goodsdetail-left div.bigpic {
+      position: absolute;
+      width: 420px;
+      height: 420px;
+      left: 440px;
+      background: red;
+      top: 0;
+      z-index: 200;
+      overflow: hidden; }
+      #content div.goodsdetail-left div.bigpic img {
+        position: absolute; }
+  #content .specPic {
+    height: 60px;
+    padding: 0 25px;
+    margin-top: 22px;
+    position: relative;
+    overflow: hidden; }
+  #content .specPiclist {
+    width: 370px;
+    height: 60px;
+    overflow: hidden;
+    position: relative; }
+    #content .specPiclist li {
+      float: left;
+      text-align: center;
+      width: 74px; }
+    #content .specPiclist img {
+      width: 56px;
+      height: 56px;
+      border: 2px solid #fff;
+      margin: 0 auto; }
+    #content .specPiclist img:hover {
+      border: 2px solid #4496ee; }
+  #content .property {
+    width: 534px;
+    float: left;
+    padding: 0 28px 0 17px;
+    border-right: 1px solid #f2f2f2;
+    position: relative;
+    z-index: 2; }
+    #content .property .name {
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+      padding-right: 120px; }
+    #content .property .priceWrap {
+      margin-top: 6px;
+      line-height: 45px; }
+    #content .property dt {
+      width: 64px;
+      color: #999; }
+    #content .property .price {
+      font-size: 30px;
+      font-weight: bold;
+      color: red; }
+    #content .property .del {
+      text-decoration: line-through; }
+    #content .property .info {
+      padding: 10px 0;
+      border-top: 1px dotted #c9c9c9;
+      border-bottom: 1px dotted #c9c9c9;
+      margin-top: 24px;
+      color: #999; }
+    #content .property .info li {
+      float: left;
+      width: 33%;
+      border-left: 1px solid #e5dfda;
+      text-align: center; }
+    #content .property .info span {
+      font-weight: bold;
+      font-size: 14px;
+      margin-left: 4px;
+      line-height: 18px;
+      color: red; }
+    #content .property .stockTip {
+      color: #f63334;
+      font-size: 14px;
+      margin: 30px 0; }
+    #content .property .onlineService li {
+      width: 115px;
+      height: 42px;
+      float: left;
+      position: relative;
+      border: 1px solid #E9E9E9;
+      margin-left: -1px;
+      text-align: center; }
+    #content .property .onlineService .tab {
+      display: block;
+      font-size: 14px;
+      line-height: 42px; }
+    #content .property .promiseWrap {
+      margin-top: 27px;
+      line-height: 23px; }
+    #content .property .promiseWrap dt {
+      float: left;
+      width: 64px; }
+    #content .property .promiseWrap dd {
+      float: left;
+      width: 64px; }
