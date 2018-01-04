@@ -13,7 +13,7 @@ require(['jquery','cook'],function($,cook){
             $.each(arr,function(index,value){
             	str += `
             	<li>
-    					<a href="#"><img src="../images/${value.image}" alt="" /></a>
+    					<a href="detail.html"><img src="../images/${value.image}" alt="" /></a>
     					<p>${value.name}</p>
     					<p class="second"><span class="fl prince">¥${value.prince}</span> <span>总销量：${value.sales}</span><span class="fr comment"><i>${value.comment}</i>条评论</span></p>
     					<a class="reserve" href="#">我要预定</a>

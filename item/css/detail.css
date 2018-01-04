@@ -26,7 +26,8 @@
     #content div.goodsdetail-left div.smallpic {
       width: 420px;
       height: 420px;
-      background: red; }
+      background: red;
+      overflow: hidden; }
       #content div.goodsdetail-left div.smallpic img {
         width: 420px;
         height: 420px; }
@@ -38,7 +39,8 @@
       background: red;
       top: 0;
       z-index: 200;
-      overflow: hidden; }
+      overflow: hidden;
+      display: none; }
       #content div.goodsdetail-left div.bigpic img {
         position: absolute; }
   #content .specPic {
@@ -112,13 +114,20 @@
       width: 115px;
       height: 42px;
       float: left;
-      position: relative;
       border: 1px solid #E9E9E9;
       margin-left: -1px;
       text-align: center; }
+    #content .property .onlineService li.cart {
+      width: 200px;
+      float: none;
+      background: #f63334;
+      margin-bottom: 20px; }
+      #content .property .onlineService li.cart a {
+        color: white;
+        font-weight: bold;
+        font-size: 16px; }
     #content .property .onlineService .tab {
       display: block;
-      font-size: 14px;
       line-height: 42px; }
     #content .property .promiseWrap {
       margin-top: 27px;
